@@ -1,0 +1,16 @@
+In program am inceput prin citirea din fisier a matricilor si miscarilor
+Dupa pozitionare am cautat sa vad daca spiridusii se afla in afara ghetarului
+Pentru fiecare comanda, am folosit o functie separata
+In move mut mai intai spiridusul urmand functia de verificare
+Daca dupa mutare, spiridusul cade, se afiseaza mesajul cerut
+Daca pica in casuta cu alt spiridus, se intra in functia fight
+Daca spiridusii pica sau sunt trimisi acasa se reinitializeaza atributele lor
+Am respectat cerintele atacului(stamina, puterea manusilor)
+Pentru comanda snowstorm am impartit numarul dat in binar
+Am facut cazurile particulare in functie de raza si am afisat mesajul dorit
+Pentru meltdown, am aflat daca spiridusii raman in afara razei de actiune
+Am realocat ghetarul in matrice dupa cum este cerut in enunt(functia realoc)
+In snowstorm am afisat clasamentul in fucntie de privilegiile cerintelor
+Dupa fiecare comanda am cautat sa vad daca mai ramane un player
+Daca ramane un player, se afiseaza mesajul dorit prin functia winner
+Am terminat programul prin eliberarea memoriei si inchiderea fisierelor
